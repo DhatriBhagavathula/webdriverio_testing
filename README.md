@@ -35,7 +35,7 @@ Before running the project, make sure the following software is installed on you
 
 ---
 
-### Step 5: Run Automation Tests
+### Step 2: Run Automation Tests
 Run All Test Files:
 npx wdio run wdio.conf.ts
 
