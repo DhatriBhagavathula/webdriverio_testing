@@ -41,3 +41,14 @@ npx wdio run wdio.conf.ts
 
 Run a Specific Test File
 npx wdio run wdio.conf.ts --spec test/specs/file_name.e2e.ts
+
+### Steps to Run Using Docker 
+
+### Prerequisite
+- Docker must be installed on the system
+
+### Run Automation Tests (Single Command)
+From the project root directory, run:
+
+```bash
+docker compose up --build
